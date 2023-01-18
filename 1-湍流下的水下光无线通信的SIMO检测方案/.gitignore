@@ -1,0 +1,5 @@
+VENV/
+**/__pycache__/
+.DS_Store
+**/.VSCodeCounter/
+._wordcount_selection.tex
