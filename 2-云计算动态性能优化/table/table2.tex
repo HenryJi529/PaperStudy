@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+    \centering
+    \labeledCaption{平均队列长度}
+    \begin{tabular}{lcccc}
+    \hline
+    Service number & \makebox[60pt]{FIFO} & \makebox[60pt]{SSF} & \multicolumn{2}{c}{\makebox[100pt]{SO}}   \\
+    \hline
+    4                   & 892.3                 & 892.3                 & \multicolumn{2}{c}{890.6} \\
+    20                  & 607.3                 & 607.3                 & \multicolumn{2}{c}{398.1} \\
+    40                  & 206.2                 & 206.2                 & \multicolumn{2}{c}{0.76}  \\
+    \multirow{2}{*}{60} & \multirow{2}{*}{3.39} & \multirow{2}{*}{3.39} & \makebox[50pt]{48}  & \makebox[50pt]{0.032}    \\
+                        &                       &                       & 52         & 0.0013       \\
+    80                  & 0.077                 & 0.077                 & 60         & 0            \\
+    \hline
+    \end{tabular}
+\end{table}

@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+    \centering
+    \labeledCaption{平均等待时间}
+    \begin{tabular}{lcccc}
+    \hline
+    Service number      & \makebox[60pt]{FIFO}                  & \makebox[60pt]{SSF}                   & \multicolumn{2}{c}{\makebox[100pt]{SO}}    \\
+    \hline
+    4                   & 705.2                 & 114.8                 & \multicolumn{2}{c}{688.2} \\
+    20                  & 475.5                 & 43.42                 & \multicolumn{2}{c}{304.6} \\
+    40                  & 166.6                 & 47.4                  & \multicolumn{2}{c}{0.59}  \\
+    \multirow{2}{*}{60} & \multirow{2}{*}{2.64} & \multirow{2}{*}{2.64} & \makebox[50pt]{48}         & \makebox[50pt]{0.025}        \\
+                        &                       &                       & 52         & 0.0010       \\
+    80                  & 0.06                  & 0.06                  & 60         & 0            \\
+    \hline
+    \end{tabular}
+\end{table}

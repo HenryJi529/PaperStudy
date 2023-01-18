@@ -1,0 +1,9 @@
+numpy
+matplotlib
+seaborn
+scipy
+simpy
+pandas
+ipython
+ipykernel
+colorama

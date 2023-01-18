@@ -1,0 +1,32 @@
+% \begin{algorithm}
+%     %      
+%     % \SetKwFunction{getvalueE}{getvalueE}
+
+%     \Input{request_list, server_list} 
+%     \Output{server_number} 
+%     \BlankLine
+% \end{algorithm}
+
+\begin{algorithm}[H]
+    \setstretch{1}
+    \SetKwData{server}{server}
+    \SetKwInOut{Input}{input}
+    \SetKwInOut{Output}{output}
+    \Input{request\_list, server\_list}
+    \Output{server\_number}
+    % \KwIn{request\_list, server\_list}
+    % \KwOut{server\_number}
+    \BlankLine
+    \For{server in server\_list}{
+        $E(t)$ = getvalue$E$(server\_number)\;
+        $L_q$ = getvalue$L_q$(server\_number)\;
+        $U$ = $\lambda_i$ / $\mu_i$\;
+    }
+    \For{for server in server\_list}{
+        function\_value = $\alpha * E(t)_i + \beta * (L_q)_i + \chi * U$\;
+    }
+    \emph{ascending sort of the valued of function\_value}\;
+    \emph{getting the index of the first function\_value}\;
+    \emph{scheduler schedules the request to the select\_server}\;
+    \labeledCaption{优化算法}
+\end{algorithm}
